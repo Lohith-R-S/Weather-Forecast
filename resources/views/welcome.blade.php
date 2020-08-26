@@ -83,6 +83,7 @@ $currentTime = time();
     </head>
    <body>
     <div class="report-container">
+	    <h1>Lohith's Weather Forecast App</h1>
         <h2><?php echo $data->name; ?> Weather Status</h2>
         <div class="time">
             <div><?php echo date("l", $currentTime); ?></div>
